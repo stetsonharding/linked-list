@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<coverage generated="1643214141252" clover="3.2.0">
+  <project timestamp="1643214141252" name="All files">
+    <metrics statements="20" coveredstatements="20" conditionals="4" coveredconditionals="4" methods="5" coveredmethods="5" elements="29" coveredelements="29" complexity="0" loc="20" ncloc="20" packages="1" files="1" classes="1"/>
+    <file name="LinkedList.js" path="C:\Users\Stetson\source\repo\linked-list\LinkedList.js">
+      <metrics statements="20" coveredstatements="20" conditionals="4" coveredconditionals="4" methods="5" coveredmethods="5"/>
+      <line num="1" count="1" type="stmt"/>
+      <line num="5" count="5" type="stmt"/>
+      <line num="6" count="5" type="stmt"/>
+      <line num="13" count="15" type="stmt"/>
+      <line num="14" count="15" type="stmt"/>
+      <line num="15" count="15" type="stmt"/>
+      <line num="22" count="4" type="cond" truecount="4" falsecount="0"/>
+      <line num="23" count="2" type="stmt"/>
+      <line num="26" count="2" type="stmt"/>
+      <line num="28" count="2" type="stmt"/>
+      <line num="29" count="2" type="stmt"/>
+      <line num="32" count="2" type="stmt"/>
+      <line num="40" count="15" type="stmt"/>
+      <line num="41" count="15" type="stmt"/>
+      <line num="48" count="1" type="stmt"/>
+      <line num="49" count="4" type="stmt"/>
+      <line num="50" count="4" type="stmt"/>
+      <line num="51" count="13" type="stmt"/>
+      <line num="54" count="4" type="stmt"/>
+      <line num="57" count="1" type="stmt"/>
+    </file>
+  </project>
+</coverage>
