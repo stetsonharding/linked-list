@@ -45,3 +45,41 @@ describe('#getByIndex', () => {
     })
 
 })
+
+
+
+describe('#insertAtIndex', () => {
+    test('Insert element at given index', () => {
+
+        describe('with index less than 0', () => {
+            test('it does not insert anything', () =>{
+                const ll = LinkedList.fromValues(10,22,15)
+                ll.insertAtIndex(-1, 30)
+                expect(ll.length.toBe(3))
+            })
+        })
+
+
+        describe('With Index greater than link list', () => {
+            test('it does not insert anything', () =>{
+                const ll = LinkedList.fromValues(10,22,15)
+                ll.insertAtIndex(5, 30)
+                expect(ll.length.toBe(3))
+            })
+        })
+
+
+        describe('with index 0', () => {
+            test('update head of linked list', () =>{
+                const ll = LinkedList.fromValues(10,22,15)
+                ll.insertAtIndex(0, 5)
+                expect(ll.head.value.toBe(5))
+                expect(ll.head.next.value.toBe(10))
+                expect(ll.length.toBe(4))
+            })
+        })
+
+
+        describe('with index in middle of list', () => {})
+    })
+})

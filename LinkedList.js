@@ -18,7 +18,7 @@ this.length++;
 
 getByIndex(index){
 
-    //cas for index is less than 0 or greater then length list. 
+    //case for index is less than 0 or greater then length list. 
     if(index < 0 || index >= this.length){
         return null
     }
@@ -30,6 +30,20 @@ getByIndex(index){
    }
 
    return current;
+}
+
+print(){
+    let output = ''
+    let current = this.head;
+
+    while(current){
+        output = `${output}${current.value} ->`
+        current = current.next
+
+    }
+
+    console.log(`${output}null`)
+// [10,20]
 }
 
 }
