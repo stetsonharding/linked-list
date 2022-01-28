@@ -32,6 +32,22 @@ getByIndex(index){
    return current;
 }
 
+
+
+insertAtIndex(index, value){
+
+
+if(index === 0) return this.insertAtHead(value)
+
+const prev = this.getByIndex(index - 1);
+if(prev === null) return null;
+
+prev.next = new LinkedListNode(value, prev.next)
+this.length++
+
+}
+
+
 print(){
     let output = ''
     let current = this.head;
@@ -39,7 +55,6 @@ print(){
     while(current){
         output = `${output}${current.value} ->`
         current = current.next
-
     }
 
     console.log(`${output}null`)
